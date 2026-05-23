@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir /s /b \"C:\\\\Users\\\\MARIA JOSE MORA MORA\\\\OneDrive\\\\Desktop\\\\BookMora_Servidores\")",
+      "Bash(docker-compose up *)",
+      "Bash(docker info *)",
+      "Bash(docker compose *)",
+      "Bash(timeout 30 bash -c 'until docker logs bookmora_backend 2>&1 | grep -q \"Listening at\"; do sleep 2; done')",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8080/api/stories/)",
+      "Bash(curl -s http://localhost:8080/api/stories/)",
+      "mcp__92ce2c3e-e572-42bc-8314-ad3141113269__get_screenshot",
+      "Bash(curl -s http://localhost:8080/api/stories/genres/)"
+    ]
+  }
+}
