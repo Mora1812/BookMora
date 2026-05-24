@@ -242,12 +242,13 @@ input, textarea, select { font-family: inherit; }
 /* ===== Story grid ===== */
 .stories-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(165px, 1fr));
-  gap: 18px;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  gap: 20px;
+  align-items: stretch;
 }
 
 @media (max-width: 768px) {
-  .stories-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 12px; }
+  .stories-grid { grid-template-columns: repeat(auto-fill, minmax(145px, 1fr)); gap: 14px; }
   .container { padding: 0 16px; }
   .section-title { font-size: 1.4rem; }
 }
