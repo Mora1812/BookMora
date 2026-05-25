@@ -1,7 +1,7 @@
-import { useState, useEffect, useContext } from 'react'
+import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { getStories, getGenres } from '../api/stories'
-import { AuthContext } from '../context/AuthContext'
+import { useAuth } from '../context/AuthContext'
 import StoryCarousel from '../components/StoryCarousel'
 import HeroCarousel from '../components/HeroCarousel'
 
@@ -48,7 +48,7 @@ const GENRE_COLORS = {
 const FEATURED_GENRES = ['Romance', 'Fantasía', 'Terror', 'Ciencia Ficción', 'Aventura', 'Misterio']
 
 export default function Landing() {
-  const { user } = useContext(AuthContext)
+  const { user } = useAuth()
   const [popular, setPopular] = useState([])
   const [genres, setGenres]   = useState([])
 
