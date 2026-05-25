@@ -5,21 +5,22 @@ from .models import CustomUser
 
 
 class CustomTokenObtainPairSerializer(TokenObtainPairSerializer):
+    """Agrega username, role y email dentro del payload del JWT."""
     @classmethod
     def get_token(cls, user):
-        token = super().get_token(user)
-        token['username'] = user.username
-        token['role'] = user.role
-        token['email'] = user.email
+        token              = super().get_token(user)
+        token['username']  = user.username
+        token['role']      = user.role
+        token['email']     = user.email
         return token
 
 
 class RegisterSerializer(serializers.ModelSerializer):
-    password = serializers.CharField(write_only=True, validators=[validate_password])
-    password2 = serializers.CharField(write_only=True)
+    password  = serializers.CharField(write_only=True, validators=[validate_password])
+    password2 = serializers.CharField(write_only=True)  # Confirmación de contraseña
 
     class Meta:
-        model = CustomUser
+        model  = CustomUser
         fields = ('username', 'email', 'password', 'password2', 'first_name', 'last_name')
 
     def validate(self, attrs):
@@ -29,21 +30,18 @@ class RegisterSerializer(serializers.ModelSerializer):
 
     def create(self, validated_data):
         validated_data.pop('password2')
-        user = CustomUser.objects.create_user(**validated_data)
-        return user
+        return CustomUser.objects.create_user(**validated_data)
 
 
 class UserProfileSerializer(serializers.ModelSerializer):
-    avatar_url = serializers.SerializerMethodField()
-    stories_count = serializers.SerializerMethodField()
+    avatar_url    = serializers.SerializerMethodField()
+    stories_count = serializers.SerializerMethodField()  # Solo historias publicadas
 
     class Meta:
-        model = CustomUser
-        fields = (
-            'id', 'username', 'email', 'first_name', 'last_name',
-            'role', 'bio', 'avatar', 'avatar_url', 'is_suspended',
-            'stories_count', 'created_at',
-        )
+        model            = CustomUser
+        fields           = ('id', 'username', 'email', 'first_name', 'last_name',
+                            'role', 'bio', 'avatar', 'avatar_url', 'is_suspended',
+                            'stories_count', 'created_at')
         read_only_fields = ('id', 'role', 'is_suspended', 'created_at')
 
     def get_avatar_url(self, obj):
@@ -57,15 +55,14 @@ class UserProfileSerializer(serializers.ModelSerializer):
 
 
 class UserAdminSerializer(serializers.ModelSerializer):
+    """Vista completa para el panel admin — incluye campos internos."""
     stories_count = serializers.SerializerMethodField()
 
     class Meta:
-        model = CustomUser
-        fields = (
-            'id', 'username', 'email', 'first_name', 'last_name',
-            'role', 'bio', 'is_suspended', 'is_active',
-            'stories_count', 'date_joined', 'created_at',
-        )
+        model  = CustomUser
+        fields = ('id', 'username', 'email', 'first_name', 'last_name',
+                  'role', 'bio', 'is_suspended', 'is_active',
+                  'stories_count', 'date_joined', 'created_at')
 
     def get_stories_count(self, obj):
         return obj.stories.count()

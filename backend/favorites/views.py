@@ -8,7 +8,7 @@ from .serializers import FavoriteSerializer
 
 
 class FavoriteViewSet(viewsets.ModelViewSet):
-    serializer_class = FavoriteSerializer
+    serializer_class   = FavoriteSerializer
     permission_classes = [IsAuthenticated]
 
     def get_queryset(self):
@@ -18,6 +18,7 @@ class FavoriteViewSet(viewsets.ModelViewSet):
         serializer.save(user=self.request.user)
 
     def create(self, request, *args, **kwargs):
+        """Toggle: si ya existe lo elimina; si no, lo agrega."""
         story_id = request.data.get('story')
         existing = Favorite.objects.filter(user=request.user, story_id=story_id).first()
         if existing:
@@ -26,13 +27,10 @@ class FavoriteViewSet(viewsets.ModelViewSet):
         serializer = self.get_serializer(data=request.data)
         serializer.is_valid(raise_exception=True)
         self.perform_create(serializer)
-        return Response(
-            {'detail': 'Historia agregada a favoritos.', 'is_favorite': True, 'data': serializer.data},
-            status=status.HTTP_201_CREATED,
-        )
+        return Response({'detail': 'Historia agregada a favoritos.', 'is_favorite': True, 'data': serializer.data}, status=status.HTTP_201_CREATED)
 
     @action(detail=False, methods=['get'])
     def check(self, request):
-        story_id = request.query_params.get('story')
-        is_fav = Favorite.objects.filter(user=request.user, story_id=story_id).exists()
+        """Verifica si una historia está en favoritos: ?story=40"""
+        is_fav = Favorite.objects.filter(user=request.user, story_id=request.query_params.get('story')).exists()
         return Response({'is_favorite': is_fav})
