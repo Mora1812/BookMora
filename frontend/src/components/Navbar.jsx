@@ -265,29 +265,40 @@ export default function Navbar() {
         background: 'rgba(0,0,0,0.18)',
         borderTop: '1px solid rgba(255,255,255,0.05)',
       }}>
-        <div className="container" style={{ display: 'flex', gap: '20px', height: 34, alignItems: 'center' }}>
+        <div style={{ display: 'flex', justifyContent: 'center', gap: '32px', height: 36, alignItems: 'center' }}>
           <NavSecLink to="/catalog" label="Catálogo" />
           {user && <NavSecLink to="/my-stories" label="Mis Historias" />}
           {user && <NavSecLink to="/favorites" label="Biblioteca" />}
-          {user?.role === 'admin' && <NavSecLink to="/panel" label="⚙ Admin" />}
+          {user?.role === 'admin' && <NavSecLink to="/panel" label="Admin" isAdmin />}
         </div>
       </div>
     </nav>
   )
 }
 
-function NavSecLink({ to, label }) {
+function NavSecLink({ to, label, isAdmin }) {
   const location = useLocation()
   const active = location.pathname.startsWith(to)
   return (
     <Link to={to} style={{
-      fontSize: '0.82rem',
+      fontSize: '0.84rem',
+      letterSpacing: '0.03em',
       color: active ? '#93c5fd' : 'var(--navbar-muted)',
-      fontWeight: active ? 500 : 400,
+      fontWeight: active ? 600 : 400,
       borderBottom: active ? '2px solid #93c5fd' : '2px solid transparent',
       paddingBottom: '2px',
       transition: 'var(--transition-fast)',
-    }}>
+      display: 'flex', alignItems: 'center', gap: '5px',
+    }}
+      onMouseEnter={e => { if (!active) e.currentTarget.style.color = 'rgba(255,255,255,0.75)' }}
+      onMouseLeave={e => { if (!active) e.currentTarget.style.color = 'var(--navbar-muted)' }}
+    >
+      {isAdmin && (
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <circle cx="12" cy="12" r="3"/>
+          <path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"/>
+        </svg>
+      )}
       {label}
     </Link>
   )

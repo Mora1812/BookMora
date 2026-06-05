@@ -2,8 +2,6 @@ import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { createStory, getGenres, createChapter, updateStory } from '../api/stories'
 
-const COVER_PLACEHOLDER = 'https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=400&h=560&fit=crop&q=80'
-
 export default function CreateStory() {
   const navigate = useNavigate()
   const [step, setStep] = useState(1)
@@ -66,7 +64,7 @@ export default function CreateStory() {
     setPublishing(false)
   }
 
-  const cover = form.cover_url || (story?.cover) || COVER_PLACEHOLDER
+  const cover = form.cover_url || story?.cover || ''
 
   return (
     <div style={{ background: '#fff', minHeight: '100vh', paddingTop: 'var(--nav-height)' }}>

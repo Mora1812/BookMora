@@ -27,10 +27,48 @@ export default function AdminDashboard() {
   if (loading) return <LoadingSpinner />
 
   const statCards = [
-    { label: 'Usuarios registrados', value: stats?.totalUsers, icon: '👥', color: 'var(--accent-primary)' },
-    { label: 'Historias publicadas', value: stats?.totalStories, icon: '📚', color: 'var(--accent-indigo)' },
-    { label: 'Géneros activos', value: '—', icon: '🏷', color: 'var(--accent-purple)' },
-    { label: 'Lecturas totales', value: '—', icon: '👁', color: 'var(--success)' },
+    {
+      label: 'Usuarios registrados', value: stats?.totalUsers,
+      color: '#2563EB', bg: 'rgba(37,99,235,0.12)',
+      icon: (
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+          <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+          <circle cx="9" cy="7" r="4"/>
+          <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+          <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+        </svg>
+      ),
+    },
+    {
+      label: 'Historias publicadas', value: stats?.totalStories,
+      color: '#7C3AED', bg: 'rgba(124,58,237,0.12)',
+      icon: (
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+          <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+          <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+        </svg>
+      ),
+    },
+    {
+      label: 'Géneros activos', value: '—',
+      color: '#0891B2', bg: 'rgba(8,145,178,0.12)',
+      icon: (
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+          <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/>
+          <line x1="7" y1="7" x2="7.01" y2="7"/>
+        </svg>
+      ),
+    },
+    {
+      label: 'Lecturas totales', value: '—',
+      color: '#059669', bg: 'rgba(5,150,105,0.12)',
+      icon: (
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+          <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+          <circle cx="12" cy="12" r="3"/>
+        </svg>
+      ),
+    },
   ]
 
   return (
@@ -42,19 +80,29 @@ export default function AdminDashboard() {
 
       {/* Stat cards */}
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '20px', marginBottom: '40px' }}>
-        {statCards.map(({ label, value, icon, color }) => (
+        {statCards.map(({ label, value, icon, color, bg }) => (
           <div key={label} style={{
             padding: '24px', background: 'var(--bg-card)',
             border: '1px solid var(--border-subtle)', borderRadius: 'var(--radius-lg)',
-          }}>
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '16px' }}>
-              <span style={{ fontSize: '1.5rem' }}>{icon}</span>
-              <div style={{ width: 8, height: 8, borderRadius: '50%', background: color }} />
+            transition: 'transform 0.15s, box-shadow 0.15s',
+          }}
+            onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-2px)'; e.currentTarget.style.boxShadow = '0 8px 24px rgba(0,0,0,0.08)' }}
+            onMouseLeave={e => { e.currentTarget.style.transform = 'none'; e.currentTarget.style.boxShadow = 'none' }}
+          >
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '20px' }}>
+              <div style={{
+                width: 44, height: 44, borderRadius: '12px',
+                background: bg, color: color,
+                display: 'flex', alignItems: 'center', justifyContent: 'center',
+              }}>
+                {icon}
+              </div>
+              <div style={{ width: 8, height: 8, borderRadius: '50%', background: color, marginTop: 4 }} />
             </div>
             <p style={{ fontFamily: 'var(--font-heading)', fontSize: '2rem', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '4px' }}>
               {value ?? '—'}
             </p>
-            <p style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>{label}</p>
+            <p style={{ fontSize: '0.8rem', color: 'var(--text-muted)', letterSpacing: '0.02em' }}>{label}</p>
           </div>
         ))}
       </div>

@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
 import { AuthProvider } from './context/AuthContext'
 import Navbar from './components/Navbar'
@@ -26,6 +27,8 @@ function AppShell() {
   const { pathname } = useLocation()
   const noShell = ['/login', '/register'].includes(pathname) || pathname.includes('/read/')
   const isAdmin = pathname.startsWith('/panel')
+
+  useEffect(() => { window.scrollTo(0, 0) }, [pathname])
 
   return (
     <>

@@ -2,22 +2,22 @@ import { useState, useEffect, useCallback } from 'react'
 
 const SLIDES = [
   {
-    img: 'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=800&h=600&fit=crop&q=80',
+    img: 'https://i.pinimg.com/736x/3d/e8/43/3de843386d75fb6b0d6588e6ab8308c3.jpg',
     title: 'Mundos de papel',
     sub: 'Cada libro es un universo esperando ser descubierto',
   },
   {
-    img: 'https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&h=600&fit=crop&q=80',
+    img: 'https://i.pinimg.com/736x/87/64/45/8764459c141cb8f3e0abaa919966696b.jpg',
     title: 'Tu próxima historia',
     sub: 'Escribe, comparte y enamora a lectores de todo el mundo',
   },
   {
-    img: 'https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=800&h=600&fit=crop&q=80',
+    img: 'https://i.pinimg.com/736x/c5/ae/be/c5aebe0f41ea80e89e79b34ef654cb27.jpg',
     title: 'La magia de leer',
     sub: 'Sumérgete en historias únicas creadas por voces nuevas',
   },
   {
-    img: 'https://images.unsplash.com/photo-1519682337058-a94d519337bc?w=800&h=600&fit=crop&q=80',
+    img: 'https://i.pinimg.com/736x/44/06/4f/44064f4ab09308e6d135f7cc09b5b5e2.jpg',
     title: 'Conecta con autores',
     sub: 'Conoce las mentes detrás de las historias que te atrapan',
   },
