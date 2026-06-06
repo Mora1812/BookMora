@@ -39,6 +39,10 @@ services:
     image: mora1812/bookmora-frontend:latest
     container_name: bookmora_frontend
     restart: unless-stopped
+    environment:
+      # Ruta relativa: el navegador la resuelve con el mismo protocolo (https) que la página,
+      # evitando el bloqueo de "mixed content" cuando el sitio se sirve por HTTPS (Cloudflare).
+      - VITE_API_URL=/api
     networks:
       - bookmora_network
 
