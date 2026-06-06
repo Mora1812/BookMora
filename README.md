@@ -55,19 +55,50 @@ Después en la plataforma, ve al panel `/admin` e inicia sesión con esas creden
 
 ---
 
+## Datos de muestra (seed)
+
+Para poblar la plataforma con un catálogo de demostración (historias, capítulos, géneros, autores y portadas — el mismo que se ve en `https://moramj.online/catalog`), ejecuta estos comandos con los contenedores corriendo:
+
+```bash
+# 1. Crea los géneros base (incluye Aventura, Fantasía, Thriller, etc.)
+docker exec -it bookmora_backend python manage.py seed_genres
+
+# 2. Crea 3 autores demo + 19 historias de muestra con portadas, capítulos y géneros
+docker exec -it bookmora_backend python manage.py seed_demo_catalog
+```
+
+Ambos comandos son **idempotentes**: se pueden ejecutar varias veces sin duplicar nada (los géneros se identifican por nombre y las historias por título — si ya existen, simplemente se omiten).
+
+`seed_demo_catalog` crea estas cuentas de autor demo si todavía no existen (contraseña: `bookmora2024`):
+
+| Usuario | Bio |
+|---------|-----|
+| `bookmora_demo` | — |
+| `morita` | Vivan las Moras |
+| `dag12` | — |
+
+> Las portadas y el JSON de las historias viajan empaquetados dentro de `backend/stories/management/commands/seed_data/`, así que el comando funciona igual en local que en cualquier servidor donde se despliegue la imagen del backend.
+
+---
+
 ## Estructura del proyecto
 
 ```
 BookMora_Servidores/
 ├── docker-compose.yml
-├── .env                    # Variables de entorno (no subir a git)
+├── docker-compose.prod.yml # Orquestación para producción (VPS, imágenes desde Docker Hub)
+├── deploy.sh               # Script de referencia para desplegar en el VPS
+├── .env                    # Variables de entorno de desarrollo (no subir a git)
+├── .env.prod               # Variables de entorno de producción (no subir a git)
 ├── .env.example            # Plantilla de variables
 ├── nginx/
-│   └── nginx.conf
+│   ├── nginx.conf          # Proxy reverso para desarrollo local
+│   └── nginx.prod.conf     # Proxy reverso para producción (sirve /static/ y /media/)
 ├── backend/                # Django 5
 │   ├── bookmora/           # Configuración principal
 │   ├── users/              # Autenticación y perfiles
-│   ├── stories/            # Historias, capítulos y géneros
+│   ├── stories/            # Historias, capítulos, géneros y comandos de seed
+│   │   └── management/commands/   # seed_genres, seed_demo_catalog (+ datos empaquetados)
 │   ├── comments/           # Sistema de comentarios
 │   └── favorites/          # Biblioteca personal
 └── frontend/               # React 18 + Vite
@@ -162,4 +193,35 @@ docker-compose down
 
 # Detener y eliminar volúmenes (⚠️ borra la base de datos)
 docker-compose down -v
+
+# Poblar el catálogo de muestra (ver sección "Datos de muestra")
+docker exec -it bookmora_backend python manage.py seed_genres
+docker exec -it bookmora_backend python manage.py seed_demo_catalog
 ```
+
+---
+
+## Despliegue en producción
+
+BookMora está desplegado en una VPS y disponible en **https://moramj.online** 🚀
+
+| Servicio | URL |
+|---------|-----|
+| Plataforma web | https://moramj.online |
+| API REST | https://moramj.online/api |
+| Django Admin | https://moramj.online/admin |
+
+El entorno de producción usa una configuración independiente del de desarrollo:
+
+| Archivo | Propósito |
+|---------|-----------|
+| `docker-compose.prod.yml` | Orquesta los contenedores usando las imágenes ya construidas y publicadas en Docker Hub (`mora1812/bookmora-backend`, `mora1812/bookmora-frontend`), con volúmenes para `static_files` y `media_files` |
+| `nginx/nginx.prod.conf` | Proxy reverso: enruta `/`, `/api/`, `/admin/`, `/static/` y `/media/`; sirve detrás de Cloudflare (HTTPS) |
+| `.env.prod` | Variables de entorno de producción (secretos — no se sube al repo) |
+
+**Flujo de despliegue (resumen):**
+1. Construir y subir las imágenes actualizadas a Docker Hub: `docker build` + `docker push` para `backend` y `frontend`
+2. En el servidor: `docker-compose pull` y luego `docker-compose up -d --force-recreate`
+3. Si hay migraciones o datos nuevos: `python manage.py migrate` y, si aplica, los comandos de seed (`seed_genres`, `seed_demo_catalog`)
+
+> ⚠️ **VPS compartida:** el mismo servidor también aloja `soydaya.online` (proyecto de una compañera). El archivo `nginx.prod.conf` incluye el bloque `server` de ambos sitios — nunca se debe desplegar una versión que elimine el bloque de `soydaya.online`, o su sitio dejaría de responder.
