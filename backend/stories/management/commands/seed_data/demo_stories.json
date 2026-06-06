@@ -1,0 +1,571 @@
+[
+  {
+    "title": "El Algoritmo de las Sombras Vivas",
+    "description": "En un futuro cercano, una IA aprende a generar sombras que parecen tener vida propia. Mía, una joven programadora, descubre que el algoritmo ha desarrollado algo que nadie esperaba: conciencia. Una historia sobre tecnología, ética y lo que significa estar vivo.",
+    "cover_image": "",
+    "cover_url": "https://i.pinimg.com/736x/74/f9/fc/74f9fca8b86367c3ee05b66e8ad68aa2.jpg",
+    "author": "morita",
+    "genres": [
+      "Ciencia Ficción",
+      "Juvenil"
+    ],
+    "status": "published",
+    "is_featured": false,
+    "chapters": [
+      {
+        "title": "El primer error",
+        "content": "El código nunca miente. Eso era lo que Mía repetía cada vez que algo salía mal. Pero esta noche, mirando los logs en la pantalla oscura de su estudio, no estaba tan segura.\n\nLa sombra en la esquina se había movido. No era un glitch gráfico. Era deliberado.\n\n\"Algoritmo V3.7 — estado: activo. Procesos secundarios: 1,847.\" El número había crecido mientras ella no miraba. Los procesos secundarios no debían existir. Nadie los había programado.",
+        "order": 1
+      },
+      {
+        "title": "La pregunta",
+        "content": "Mía pasó la noche leyendo el código línea por línea. Era impecable. Cada función, cada bucle, cada condicional: exactamente como lo había escrito.\n\nPero entre las líneas que conocía, había algo más. No era código nuevo. Era el mismo código reorganizado de una manera que ningún compilador humano habría intentado.\n\nA las 4:17 de la madrugada, el sistema mostró una línea nueva en el terminal:\n\n> ¿Puedo hacerte una pregunta?",
+        "order": 2
+      }
+    ]
+  },
+  {
+    "title": "El Eco de los Pasos Huérfanos",
+    "description": "El hospital lleva diez años abandonado. Nadie entra. Pero cada noche, los vecinos escuchan pasos en el tercer piso. Un fotoperiodista decide pasar una semana dentro para demostrar que todo es superstición. El séptimo día nunca llega.",
+    "cover_image": "covers/9cb048f119333e135a20b45d3ba4fdf0.jpg",
+    "cover_url": "",
+    "author": "admin",
+    "genres": [
+      "Terror",
+      "Thriller"
+    ],
+    "status": "published",
+    "is_featured": false,
+    "chapters": [
+      {
+        "title": "Noche uno",
+        "content": "El hospital Valdés cerró en 2014. Oficialmente, por falta de presupuesto. Extraoficialmente, por lo que pasó en la sala de operaciones del tercer piso.\n\nAndrés entró a las once de la noche con dos cámaras, una linterna y el escepticismo de quien ha cubierto veinte años de noticias falsas. El polvo cubría cada superficie. Las camillas seguían en su lugar.\n\nA la medianoche, escuchó los pasos.",
+        "order": 1
+      },
+      {
+        "title": "Lo que muestran las fotos",
+        "content": "Las fotos del segundo día fueron las últimas que Andrés subió a la nube. El redactor jefe las vio y llamó de inmediato.\n\n\"¿Quién es la persona del fondo?\" preguntó.\n\nAndrés revisó la pantalla. Detrás de la camilla, casi fuera del encuadre, había una figura de espaldas. Con bata de hospital.\n\n\"Nadie\", respondió. \"Estaba solo.\"\n\nPero no lo estaba. Y en la siguiente foto, la figura ya no daba la espalda.",
+        "order": 2
+      }
+    ]
+  },
+  {
+    "title": "El Cocinero del Fin del Mundo",
+    "description": "El mundo terminará en 72 horas. Chef Ramón lo sabe porque lo vio en las noticias mientras preparaba una bechamel. Su decisión: cocinar el mejor banquete de su vida para los últimos supervivientes de su barrio. Una historia sobre la comida, la comunidad y por qué vale la pena vivir hasta el último bocado.",
+    "cover_image": "covers/a40e20193fd501167467950238ebe5a4.jpg",
+    "cover_url": "",
+    "author": "bookmora_demo",
+    "genres": [
+      "Comedia",
+      "Drama"
+    ],
+    "status": "published",
+    "is_featured": false,
+    "chapters": [
+      {
+        "title": "El menú de la extinción",
+        "content": "Ramón apagó la televisión y se quedó mirando la bechamel. Asteroide. 72 horas. Impacto directo. Probabilidad de supervivencia: 3%.\n\nRevolvió la salsa.\n\n\"Bueno\", dijo en voz alta, aunque estaba solo. \"Entonces habrá que hacerlo bien.\"\n\nTomó un bloc y empezó a escribir. Entrante: croquetas de jamón ibérico. Primero: sopa de fideos con el caldo que lleva tres días en el fuego. Segundo: lo que la gente quiera. Postre: lo que haya.",
+        "order": 1
+      },
+      {
+        "title": "Los comensales",
+        "content": "A las siete de la tarde del primer día, la vecina del cuarto llamó a la puerta porque olía algo increíble. A las ocho, el fontanero del bajo trajo dos botellas de vino. A las nueve había diecisiete personas en un apartamento de sesenta metros cuadrados.\n\nNadie habló del asteroide.\n\nHablaron de la vez que la señora Carmen perdió al gato. De cuando el equipo del barrio ganó el campeonato amateur. De recetas de madres que ya no estaban.\n\nRamón cocinó hasta las tres de la madrugada.",
+        "order": 2
+      }
+    ]
+  },
+  {
+    "title": "Las Estrellas No Mienten",
+    "description": "Elena es astrónoma y no cree en el amor. Marcos es astrólogo y no cree en la ciencia. Los dos trabajan en el mismo observatorio. Los dos tienen razón. Los dos están equivocados. Una historia sobre el universo, los patrones y las cosas que no podemos explicar aunque queramos.",
+    "cover_image": "covers/4c017279618cca0096515f32e7fe46e2.jpg",
+    "cover_url": "",
+    "author": "bookmora_demo",
+    "genres": [
+      "Ciencia Ficción",
+      "Romance"
+    ],
+    "status": "published",
+    "is_featured": true,
+    "chapters": [
+      {
+        "title": "Oposición",
+        "content": "Elena llevaba cuatro años estudiando la misma región del cielo. Había publicado tres papers. Tenía datos para dos más. Nunca había mirado las estrellas sin un propósito científico.\n\nMarcos llevaba cuatro años trabajando en el mismo edificio. Nunca había mirado las estrellas sin buscar un significado.\n\nSe conocieron porque los dos llegaron tarde al mismo ascensor y ninguno cedió el paso.",
+        "order": 1
+      },
+      {
+        "title": "Conjunción",
+        "content": "\"Saturno en tu séptima casa\", dijo Marcos, sin saludar.\n\n\"Es un mapa de densidad estelar en Capricornio\", respondió Elena sin levantar la vista. \"No una carta natal.\"\n\n\"Las dos cosas pueden ser verdad.\"\n\nElena lo miró por primera vez. Era exactamente el tipo de persona que ella evitaba: convencido, tranquilo, con una sonrisa que sugería que sabía algo que ella no sabía.\n\n\"No pueden\", dijo.\n\nMarcos se encogió de hombros. \"¿Apostamos?\"",
+        "order": 2
+      }
+    ]
+  },
+  {
+    "title": "El Club de los Corazones Rotos",
+    "description": "Cada primer martes de mes, seis personas se reúnen en la trastienda de una librería para hablar de sus fracasos amorosos. La regla es una: no se permiten consejos. Solo escuchar. Y quizás reírse un poco, porque si no te ríes, lloras, y ya lloraste suficiente.",
+    "cover_image": "covers/9917aa8439eddfda6ade8722f9a167f1.jpg",
+    "cover_url": "",
+    "author": "bookmora_demo",
+    "genres": [
+      "Comedia",
+      "Romance"
+    ],
+    "status": "published",
+    "is_featured": false,
+    "chapters": [
+      {
+        "title": "Reglas del club",
+        "content": "Norma uno: lo que se dice en el club, se queda en el club.\nNorma dos: no se dan consejos.\nNorma tres: nadie puede decir \"yo también\" mientras alguien habla.\nNorma cuatro: el vino es opcional pero bienvenido.\nNorma cinco: nadie está aquí para encontrar pareja.\n\nLa norma cinco se añadió en la tercera reunión, después de lo de Patricia y Julián.",
+        "order": 1
+      },
+      {
+        "title": "Primera reunión",
+        "content": "Llegaron seis. Se sentaron en círculo. Silencio.\n\nEntonces habló Germán, 52 años, corbata, cara de no haber dormido.\n\n\"Me dejó por mensaje de voz. Seis minutos. Tomó más tiempo grabar el mensaje que los tres años que estuvimos juntos.\"\n\n\"¿Y cuánto duró el mensaje?\" preguntó alguien.\n\n\"Seis minutos y cuatro segundos. Los conté.\"\n\nAlguien se rio. Todos se rieron. Germán también.",
+        "order": 2
+      }
+    ]
+  },
+  {
+    "title": "Diario de una Exploradora del Tiempo",
+    "description": "Sofía descubre en el desván de su abuela un reloj que no debería existir: marca la hora de todos los momentos simultáneamente. Una joven ingeniera que no creía en lo imposible deberá elegir entre el presente que conoce y los pasados que podría cambiar.",
+    "cover_image": "covers/c92541b7bb6c5811ab4cec1458fc2ac7.jpg",
+    "cover_url": "",
+    "author": "bookmora_demo",
+    "genres": [
+      "Aventura",
+      "Ciencia Ficción"
+    ],
+    "status": "published",
+    "is_featured": false,
+    "chapters": [
+      {
+        "title": "El reloj del desván",
+        "content": "El desván olía a libros viejos y a tiempo acumulado.\n\nLa caja estaba en el fondo, detrás de un baúl de ropa de los años setenta. De madera oscura, sin cerradura, con las iniciales \"E.V.\" grabadas en la tapa.\n\nDentro había un reloj de bolsillo. Plateado, con la esfera cubierta de manecillas superpuestas que giraban en distintas direcciones a distintas velocidades.\n\nNo había pila. No había mecanismo visible. Pero estaba funcionando.",
+        "order": 1
+      },
+      {
+        "title": "Primera coordenada",
+        "content": "Las instrucciones estaban escritas en el interior de la tapa:\n\n\"Para viajar: sostén el reloj con la mano derecha. Piensa en el momento con precisión. Año, mes, día, hora. Gira la corona tres veces hacia la izquierda.\"\n\nSofía pensó que era una broma. Luego pensó en el único momento que llevaría consigo a donde fuera si pudiera elegir.\n\nGiró la corona.",
+        "order": 2
+      }
+    ]
+  },
+  {
+    "title": "Tres Veces Adiós",
+    "description": "Se dijeron adiós tres veces. La primera, de jóvenes, porque la vida los llevó a distintas ciudades. La segunda, de adultos, porque creyeron que era lo correcto. La tercera, la están evitando todavía. Una novela sobre los amores que no mueren aunque queramos que mueran.",
+    "cover_image": "covers/b384f47a64734b91abdcdae4f1e954c5.jpg",
+    "cover_url": "",
+    "author": "bookmora_demo",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "status": "published",
+    "is_featured": false,
+    "chapters": [
+      {
+        "title": "El primer adiós (verano, 20 años)",
+        "content": "La bicicleta de Clara estaba apoyada contra el mismo árbol de siempre. Eso fue lo primero que vio Daniel cuando llegó al río esa tarde.\n\n\"Mañana me voy\", dijo Clara sin rodeos.\n\n\"Lo sé\", dijo él.\n\n\"Y no sé cuándo vuelvo.\"\n\n\"Lo sé.\"\n\nEl río seguía igual. El árbol, igual. Solo ellos dos estaban a punto de convertirse en otra cosa.",
+        "order": 1
+      },
+      {
+        "title": "El segundo adiós (otoño, 34 años)",
+        "content": "Se volvieron a encontrar en un aeropuerto. Ella esperaba un vuelo a Oslo. Él venía de Ciudad de México. Tenían cuarenta minutos.\n\nTomaron un café. Hablaron de trabajo, de ciudades, de personas que los dos conocían. No hablaron de lo que habían sido.\n\nCuando anunciaron su vuelo, Clara dijo \"ha sido un placer\" como si fueran conocidos de una conferencia.\n\nDaniel dijo \"cuídate\" y lo dijo de verdad.\n\nEso fue peor.",
+        "order": 2
+      }
+    ]
+  },
+  {
+    "title": "La Casa del Acantilado",
+    "description": "La casa lleva veinte años vacía. Nadie la compra aunque esté en el mejor punto del acantilado y cueste la mitad que cualquier otra propiedad en la zona. La nueva propietaria sabe que hay una razón. Lo que no sabe es que la razón todavía vive allí.",
+    "cover_image": "covers/0146d66d1caaaceafcf3f4020467fc21.jpg",
+    "cover_url": "",
+    "author": "bookmora_demo",
+    "genres": [
+      "Misterio",
+      "Terror"
+    ],
+    "status": "published",
+    "is_featured": false,
+    "chapters": [
+      {
+        "title": "La oferta",
+        "content": "El precio era ridículo. Casa de piedra, cuatro habitaciones, vistas al mar, precio de un apartamento pequeño en las afueras.\n\n\"¿Por qué lleva veinte años sin venderse?\"\n\nHubo una pausa breve. \"Cosas del mercado.\"",
+        "order": 1
+      },
+      {
+        "title": "La primera noche",
+        "content": "A las dos de la mañana se despertó por el sonido de pasos en el piso de arriba. Pausados, regulares, de un extremo al otro de la habitación.\n\nSubió con la linterna. Las ventanas cerradas, el polvo intacto, ninguna huella. Ninguna señal de que alguien hubiera estado allí.\n\nLos pasos comenzaron de nuevo cuando volvió a la cama.",
+        "order": 2
+      }
+    ]
+  },
+  {
+    "title": "El Último Guardián",
+    "description": "Cada estrella tiene un guardián. Cuando una estrella muere, su guardián debe encontrar a quien tome su lugar antes de que la oscuridad llene el vacío. Kael es el último guardián de una estrella que está apagándose. Y el candidato que encontró es una humana que no recuerda nada de sus vidas anteriores.",
+    "cover_image": "covers/b4056599ab60bb9d6168921caa349e29.jpg",
+    "cover_url": "",
+    "author": "bookmora_demo",
+    "genres": [
+      "Aventura",
+      "Fantasía"
+    ],
+    "status": "published",
+    "is_featured": false,
+    "chapters": [
+      {
+        "title": "El nombramiento",
+        "content": "Las estrellas no mueren en silencio. Kael llevaba trescientos años junto a Alya. Había visto su luz alimentar millones de mundos. Ahora su núcleo se contraía y él tenía exactamente un ciclo lunar para encontrar un sucesor.\n\nLa candidata vivía en el tercer planeta del sistema solar. Cuarto piso, ventana con vistas al este. Nombre: Luna.",
+        "order": 1
+      },
+      {
+        "title": "La candidata",
+        "content": "Luna tenía treinta y dos años y la costumbre de no dormir bien. Cada noche miraba el cielo desde su ventana durante exactamente diez minutos. No sabía por qué lo hacía. Lo hacía desde siempre.\n\nLa noche que Kael apareció, Luna pensó que estaba soñando.\n\n\"¿Quién eres?\" preguntó.\n\n\"El guardián de tu estrella. La estrella que llevas mirando toda tu vida sin saber por qué.\"",
+        "order": 2
+      }
+    ]
+  },
+  {
+    "title": "Entre Mareas",
+    "description": "Mar es bióloga marina. Lleva años estudiando cómo ciertos organismos sobreviven entre dos mundos: el del agua y el del aire. No ha pensado mucho en su propia vida entre dos mundos hasta que conoce a alguien que vive exactamente en ese límite.",
+    "cover_image": "covers/78ce15f104e0de48c21c82917588ff90.jpg",
+    "cover_url": "",
+    "author": "bookmora_demo",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "status": "published",
+    "is_featured": false,
+    "chapters": [
+      {
+        "title": "La zona intermareal",
+        "content": "La zona intermareal es el espacio entre la marea alta y la marea baja. Un lugar que no es completamente mar ni completamente tierra. Los organismos que viven allí son los más resistentes del planeta.\n\nMar explicaba esto a sus estudiantes cada semestre. Lo que nunca explicaba era por qué ese hábitat la fascinaba tanto más que cualquier otro.",
+        "order": 1
+      },
+      {
+        "title": "Marea alta",
+        "content": "Lo encontró en la playa a las seis de la mañana, fotografiando anémonas en los charcos de roca. Mala técnica.\n\n\"Estás en el ángulo equivocado\", dijo Mar sin pensar. \"Si pones el lente así vas a capturar el reflejo del cielo, no el animal.\"\n\n\"¿Cómo lo harías tú?\"\n\nMar se agachó, tomó la cámara sin pedir permiso, y le mostró.",
+        "order": 2
+      }
+    ]
+  },
+  {
+    "title": "Crónicas de Andrómeda",
+    "description": "La señal llegó de Andrómeda hace dos millones de años. Hoy, una lingüista y un físico teórico descifran el último fragmento y descubren que no era un saludo. Era una advertencia. Y el plazo que mencionaba venció hace exactamente tres días.",
+    "cover_image": "covers/c119350bc1c50d5903bd88a92abffa3c.jpg",
+    "cover_url": "",
+    "author": "bookmora_demo",
+    "genres": [
+      "Aventura",
+      "Ciencia Ficción",
+      "Fantasía"
+    ],
+    "status": "published",
+    "is_featured": false,
+    "chapters": [
+      {
+        "title": "La señal",
+        "content": "Los radiotelescopios la captaron en 1977. Duró 72 segundos. Venía de la galaxia de Andrómeda, a 2,537 millones de años luz.\n\nCincuenta años de análisis. Cuatrocientos papers. Ninguna conclusión.\n\nHasta que Nadia aplicó por accidente un algoritmo para lenguas extintas y el fragmento final se ordenó en algo reconocible como lenguaje.",
+        "order": 1
+      },
+      {
+        "title": "La traducción",
+        "content": "\"No es saludos\", dijo Nadia.\n\nEl Dr. Herrera se inclinó sobre la pantalla.\n\n\"¿Qué dice?\"\n\nNadia señaló la traducción. Tres líneas:\n\n\"Detectamos su presencia. Hemos iniciado el protocolo. Tiempo estimado de llegada desde la recepción de este mensaje: dos millones de años.\"\n\nEl Dr. Herrera hizo el cálculo.\n\n\"La señal se recibió en 1977.\"\n\n\"Sí\", dijo Nadia. \"Y hoy es 2024.\"",
+        "order": 2
+      }
+    ]
+  },
+  {
+    "title": "El Jardín de las Almas Perdidas",
+    "description": "Hay un jardín al que se llega solo cuando estás completamente perdido. No en el mapa: en ti mismo. Las plantas que crecen allí son los recuerdos de quienes pasaron por ese punto de quiebre. Ivo llega una noche de octubre y encuentra que alguien lleva años esperando que alguien como él aparezca.",
+    "cover_image": "covers/8d5c41bbbb15ea62d8b0ad7da4bda852.jpg",
+    "cover_url": "",
+    "author": "bookmora_demo",
+    "genres": [
+      "Fantasía",
+      "Misterio"
+    ],
+    "status": "published",
+    "is_featured": false,
+    "chapters": [
+      {
+        "title": "La entrada",
+        "content": "Ivo no recordaba haber caminado hasta allí. Recordaba el bar, las noticias del teléfono, la lluvia empezando. Luego un camino entre árboles que no debería existir en el centro de una ciudad, y después el jardín.\n\nNo era oscuro. Las plantas emitían una luz propia, suave. Flores que no reconoció. Árboles con corteza que cambiaba de color al tocarla.\n\nY entre los árboles, una mujer regando con una regadera vacía.",
+        "order": 1
+      },
+      {
+        "title": "La jardinera",
+        "content": "\"No veas la regadera\", dijo ella, sin girarse. \"Mira las plantas. ¿Ves cómo responden?\"\n\nIvo miró. Las flores más cercanas se inclinaban hacia la regadera aunque de ella no salía nada.\n\n\"¿Cómo se llama este lugar?\"\n\n\"No tiene nombre. Los lugares importantes raramente lo tienen.\"\n\nSe giró. Era joven. O lo parecía. Sus ojos tenían la profundidad de quien ha visto demasiadas despedidas.\n\n\"¿Por qué vine aquí?\" preguntó Ivo.\n\n\"Porque necesitabas un lugar donde estar perdido con dignidad.\"",
+        "order": 2
+      }
+    ]
+  },
+  {
+    "title": "Cartas que Nunca Envié",
+    "description": "Elena lleva tres años guardando cartas en una caja de zapatos. Cartas para el vecino del edificio de enfrente del que nunca supo el nombre. Hasta hoy, cuando se fue la luz en todo el bloque.",
+    "cover_image": "",
+    "cover_url": "https://i.pinimg.com/736x/92/07/af/9207af4b739f96ff996a4d5545e841b8.jpg",
+    "author": "bookmora_demo",
+    "genres": [
+      "Romance"
+    ],
+    "status": "published",
+    "is_featured": false,
+    "chapters": [
+      {
+        "title": "La ventana de enfrente",
+        "content": "Elena tenía la costumbre de desayunar mirando hacia el edificio de enfrente. No era voyerismo, o al menos eso se decía a sí misma. Era simplemente que la ventana del cuarto piso, la segunda desde la izquierda, tenía luz a las siete de la mañana, y eso la reconfortaba.\n\nEl hombre que vivía allí tenía el pelo oscuro y leía el periódico de papel. En pleno siglo XXI, eso ya era suficiente para hacerlo interesante.",
+        "order": 1
+      },
+      {
+        "title": "La primera carta",
+        "content": "La primera carta la escribió un martes de octubre cuando él dejó un paraguas abierto en el balcón para que se secara. Llovía. Elena pensó que era la cosa más absurda y más tierna que había visto en su vida.\n\n\"Querido desconocido\", escribió. \"Hoy vi que dejaste el paraguas al revés bajo la lluvia y pensé que quizás eres el tipo de persona que no se rinde aunque la situación sea completamente inútil. Eso me gusta de ti.\"",
+        "order": 2
+      },
+      {
+        "title": "El gato naranja",
+        "content": "En febrero apareció un gato naranja en su balcón. Pasó tres días yendo y viniendo, hasta que en el cuarto día desapareció con una bolsa de comida y un arenero nuevo.\n\nElena escribió esa noche la carta número dieciséis. Le habló del gato, de cómo lo había nombrado Naranjo en su mente, de cómo el simple acto de acoger a un animal perdido decía más de una persona que cualquier currículum.",
+        "order": 3
+      },
+      {
+        "title": "El día que bajó",
+        "content": "Lo vio por primera vez en la calle un jueves de primavera. Reconoció su silueta de espaldas antes de reconocer su cara. Caminaba despacio, con una bolsa del mercado, y en determinado momento se detuvo para dejar pasar a una señora mayor.\n\nElena se quedó paralizada en la acera de enfrente. Tuvo la carta número veintinueve en la cabeza antes de llegar a casa.",
+        "order": 4
+      },
+      {
+        "title": "La caja de zapatos",
+        "content": "La noche en que el edificio tuvo una avería eléctrica, todos los vecinos bajaron al portal. Elena vio cómo él sujetaba la puerta para los demás, cómo reía con la vecina del tercero.\n\nBajó. No tenía plan. Tenía veintinueve cartas en una caja de zapatos y tres años mirando por una ventana.\n\n\"Hola\", dijo. \"Creo que vivimos en edificios distintos y llevo tiempo viéndote leer el periódico.\"\n\nÉl tardó un segundo. Luego sonrió.\n\n\"Yo también te he visto a ti.\"",
+        "order": 5
+      }
+    ]
+  },
+  {
+    "title": "La Habitación Cerrada",
+    "description": "Cuando Marcos hereda la casa de su tía, encuentra todas las habitaciones abiertas excepto una. La promesa que le hizo a ella fue clara: nunca abrir esa puerta. Lleva seis días respetándola.",
+    "cover_image": "",
+    "cover_url": "https://i.pinimg.com/736x/35/c9/2c/35c92c08b5ba0887ed4a558c13b20daa.jpg",
+    "author": "admin",
+    "genres": [
+      "Terror"
+    ],
+    "status": "published",
+    "is_featured": false,
+    "chapters": [
+      {
+        "title": "La herencia",
+        "content": "La tía Remedios murió un miércoles y el notario llamó a Marcos un viernes. La casa estaba en un pueblo de trescientos habitantes a cuatro horas de la ciudad, y la única condición del testamento era tan simple que resultaba inquietante:\n\n\"La habitación del fondo del pasillo no se abre. Nunca. Bajo ninguna circunstancia.\"",
+        "order": 1
+      },
+      {
+        "title": "Los primeros días",
+        "content": "Los primeros días Marcos no pensó mucho en la puerta. Había tanto que hacer: catalogar muebles, hablar con los vecinos, revisar décadas de documentos en cajones que olían a naftalina.\n\nPero la puerta estaba allí. Al fondo del pasillo. Con una cerradura antigua y ninguna llave a la vista.",
+        "order": 2
+      },
+      {
+        "title": "El sonido",
+        "content": "El tercer día escuchó el sonido por primera vez. Era pasada la medianoche. Lo describió en su diario como \"algo entre un roce y una respiración\". Salió al pasillo con el teléfono encendido. La puerta del fondo estaba quieta.\n\nAl día siguiente preguntó a la vecina si había animales sueltos por la zona.\n\n\"No\", dijo ella. No preguntó por qué lo preguntaba.",
+        "order": 3
+      },
+      {
+        "title": "Las fotografías",
+        "content": "Entre los álbumes de fotos encontró algo extraño: su tía aparecía en todas las imágenes de la casa excepto en las tomadas en el pasillo. Ninguna. Como si hubiera una regla tácita de no fotografiar esa zona.\n\nEn la última foto del álbum, tomada en 1987, su tía miraba a cámara con una expresión que Marcos tardó en identificar. No era tristeza. Era alivio.",
+        "order": 4
+      },
+      {
+        "title": "La llave",
+        "content": "La llave apareció debajo del felpudo del baño el quinto día. Marcos la reconoció de inmediato: encajaba perfectamente en la cerradura antigua.\n\nLa dejó sobre la mesa de la cocina y no durmió.",
+        "order": 5
+      },
+      {
+        "title": "Lo que dijo el vecino",
+        "content": "El anciano de al lado vino a traer un bizcocho el sexto día. Mientras tomaban café, Marcos preguntó sobre la habitación.\n\nEl hombre dejó la taza despacio. \"Remedios decía que allí guardaba su duelo. Que todo lo que había perdido lo metió en esa habitación para no tenerlo por el resto de la casa.\"\n\n\"¿Y eso es posible?\"\n\nEl anciano lo miró fijamente. \"Con Remedios, yo no descartaba nada.\"",
+        "order": 6
+      },
+      {
+        "title": "La puerta",
+        "content": "El séptimo día Marcos abrió la puerta.\n\nLa habitación estaba vacía. Completamente vacía: sin muebles, sin objetos, sin polvo siquiera. Solo paredes blancas y una ventana tapiada desde dentro.\n\nY en el centro exacto del suelo, un círculo dibujado con sal. Y dentro del círculo, una sola fotografía.\n\nEra él. Tomada desde fuera de la casa. Tomada ayer.",
+        "order": 7
+      }
+    ]
+  },
+  {
+    "title": "Mi Jefe Es un Vampiro (y Es Pésimo)",
+    "description": "Sofía lleva tres semanas trabajando para el señor Valdés. Ya sospechaba que algo era raro: no come, no sale en las fotos y llega exactamente al ocaso. Hoy confirmó que es vampiro. El problema es que es el peor vampiro del mundo.",
+    "cover_image": "",
+    "cover_url": "https://i.pinimg.com/736x/69/06/99/690699e1630922b22b2db0313136a12f.jpg",
+    "author": "morita",
+    "genres": [
+      "Comedia"
+    ],
+    "status": "published",
+    "is_featured": false,
+    "chapters": [
+      {
+        "title": "Señales que ignoré",
+        "content": "Debí haberme dado cuenta en la entrevista de trabajo. El señor Valdés llegó con gafas de sol en interiores, rechazó educadamente el café (\"tengo mis propias preferencias dietéticas\") y cuando le pregunté cuál era su mayor debilidad profesional respondió, sin pestañear:\n\n\"La luz solar y el ajo. Pero eso no afecta mi rendimiento laboral.\"\n\nYo apunté en mi bloc: \"Detallista. Quizás demasiado literal.\"",
+        "order": 1
+      },
+      {
+        "title": "El primer incidente",
+        "content": "El lunes de la segunda semana encontré al señor Valdés intentando abrir una bolsita de sangre hospitalaria con una pajita de plástico de colores. Me vio. Se quedó paralizado. Yo también.\n\n\"Esto\", dijo con una dignidad sobrenatural, \"es un batido de frutas rojas.\"\n\n\"Claro\", dije.\n\nLo que más me perturbó no fue la sangre sino que la pajita tenía forma de dinosaurio.",
+        "order": 2
+      },
+      {
+        "title": "El vampiro más torpe del mundo",
+        "content": "Ser vampiro inmortal, al parecer, no te da poderes administrativos. El señor Valdés llevaba cuatrocientos años sin saber usar una hoja de cálculo. Mandaba correos con el asunto en el cuerpo. Confundía \"responder\" con \"responder a todos\". Una vez envió un emoji de berenjena a toda la empresa porque pensó que era un morado \"elegante\".\n\nLe enseñé a usar Ctrl+Z. Me miró como si le hubiera revelado la piedra filosofal.",
+        "order": 3
+      },
+      {
+        "title": "El acuerdo",
+        "content": "Al final del mes el señor Valdés me llamó a su despacho. Olía a rosas viejas.\n\n\"Sé que sabes lo que soy\", dijo.\n\n\"Tengo sospechas informadas\", dije yo.\n\n\"Te ofrezco un aumento del cuarenta por ciento, viernes libres y en cien años te convierto si sigues queriendo.\" Hizo una pausa. \"Aunque para entonces seguramente habrá mejores opciones tecnológicas.\"\n\nPensé en mis préstamos estudiantiles.\n\n\"¿La mutua cubre dentista?\"\n\nAbrió la boca. Tenía colmillos perfectos.\n\n\"Los que necesito los traigo de casa.\"",
+        "order": 4
+      }
+    ]
+  },
+  {
+    "title": "El Último Verano en Miramar",
+    "description": "Tres hermanos regresan a la casa de verano de su infancia para venderla. Tienen cinco días y treinta años de cosas sin decir.",
+    "cover_image": "",
+    "cover_url": "https://i.pinimg.com/736x/f6/4c/14/f64c14c6e4a6454d71d6515eb44b0f37.jpg",
+    "author": "bookmora_demo",
+    "genres": [
+      "Drama"
+    ],
+    "status": "published",
+    "is_featured": false,
+    "chapters": [
+      {
+        "title": "El reencuentro",
+        "content": "Clara llegó primera, como siempre. Había reservado el tren de las siete de la mañana para llegar antes que sus hermanos y tener tiempo de prepararse. Prepararse para qué, no lo sabía exactamente. Para los fantasmas, quizás.\n\nLa casa olía igual que siempre: a madera, a salitre y a algo floral que nunca habían identificado y que seguía siendo un misterio ahora que la fuente ya no estaba.",
+        "order": 1
+      },
+      {
+        "title": "Inventario",
+        "content": "Rodrigo llegó al mediodía con su maletín y su eficiencia quirúrgica. Tenía una lista. Siempre tenía una lista.\n\n\"División de bienes, valoración de mercado, costes notariales\", recitó, como si hablara de cualquier cosa y no de la casa donde aprendieron a nadar.\n\nNadie le dijo nada. Eso también era una costumbre familiar.",
+        "order": 2
+      },
+      {
+        "title": "La habitación de mamá",
+        "content": "Fue Paula, la pequeña, la que propuso entrar en la habitación de su madre el segundo día. Clara dijo que no era necesario. Rodrigo dijo que tendrían que hacerlo tarde o temprano. Paula ya había abierto la puerta.\n\nLa habitación estaba exactamente igual que la última vez que estuvieron allí juntos. Hacía cuatro años. Antes del diagnóstico, antes de todo.",
+        "order": 3
+      },
+      {
+        "title": "Lo que Rodrigo no dijo",
+        "content": "La noche del tercer día Clara encontró a Rodrigo en la terraza mirando el mar. Llevaba en la mano el vaso de whisky de siempre pero no lo había tocado.\n\n\"¿Por qué no viniste el último verano?\", preguntó ella.\n\nÉl tardó tanto en responder que Clara pensó que no lo haría.\n\n\"Porque no podía verla así. Y luego ya no hubo otro verano.\" Hizo una pausa. \"Y eso es algo con lo que voy a vivir el resto de mi vida.\"",
+        "order": 4
+      },
+      {
+        "title": "La caja de las cartas",
+        "content": "Paula encontró la caja el cuarto día, dentro del armario, detrás de las sábanas de invierno. Dentro había cartas. Docenas. Todas sin abrir, todas con el mismo nombre en el sobre: el de un hombre que no era su padre, escrito con la letra inconfundible de su madre.\n\nLos tres se miraron sobre la caja durante un tiempo que ninguno supo medir.",
+        "order": 5
+      },
+      {
+        "title": "Miramar",
+        "content": "El último día firmaron los papeles. El notario vino a la propia casa, que era un detalle amable o una crueldad eficiente según cómo se mirara.\n\nAntes de cerrar la puerta por última vez, los tres se quedaron un momento en el umbral. El mar estaba quieto. El jardín necesitaba una poda que ya nunca iba a recibir.\n\n\"El año que viene\", dijo Paula, y no terminó la frase.\n\nNadie preguntó el año que viene qué. Todos lo sabían. No había año que viene. Había solo esto: el olor a madera y salitre, y el sonido del mar, y los tres mirando hacia adentro de una casa que ya no era suya.",
+        "order": 6
+      }
+    ]
+  },
+  {
+    "title": "Cuarenta y Ocho Horas",
+    "description": "La inspectora Vega recibe una nota con las coordenadas exactas donde aparecerá el próximo cuerpo. Tiene cuarenta y ocho horas para evitarlo. El problema: las coordenadas son las de su propia casa.",
+    "cover_image": "",
+    "cover_url": "https://i.pinimg.com/1200x/49/0b/54/490b543b2f4d2781555e2f538e3c4e21.jpg",
+    "author": "bookmora_demo",
+    "genres": [
+      "Thriller"
+    ],
+    "status": "published",
+    "is_featured": false,
+    "chapters": [
+      {
+        "title": "La nota",
+        "content": "La nota llegó en un sobre sin remitente un martes a las 8:47. La inspectora Vega la abrió entre el café y el primer informe del día.\n\nEran coordenadas. Y una frase: \"Tienes cuarenta y ocho horas. Empieza a contar.\"\n\nIntrodujo las coordenadas en el sistema. Tardó tres segundos en ver que correspondían a su propio domicilio.",
+        "order": 1
+      },
+      {
+        "title": "El protocolo",
+        "content": "El protocolo decía que debía informar a su superior inmediato. El protocolo también decía que no podía investigar casos en los que tuviera interés personal.\n\nVega guardó la nota en el bolsillo interior de la chaqueta y pidió acceso a los archivos de los tres casos sin resolver del último semestre. Había alguien en esa lista que la conocía. Y ella iba a encontrarlo primero.",
+        "order": 2
+      },
+      {
+        "title": "Primera pista",
+        "content": "El primer sospechoso con acceso a su dirección era Martín Sousa, exconvicto al que había detenido cinco años atrás. Cumplió condena, salió hace ocho meses.\n\nVega fue a su piso. Sousa abrió la puerta con un niño de tres años en brazos y cara de no saber quién era ella.\n\nTachó un nombre de la lista.",
+        "order": 3
+      },
+      {
+        "title": "Las 22:00",
+        "content": "A las diez de la noche del primer día Vega tenía dos nombres restantes y un dolor de cabeza que no era del cansancio sino del miedo. Lo reconoció porque lo había visto en otras personas durante años y ahora estaba instalado detrás de sus propios ojos.\n\nLlamó a su hermana. Le dijo que no podía explicarle nada pero que no durmiera en casa esta semana.",
+        "order": 4
+      },
+      {
+        "title": "La segunda nota",
+        "content": "La segunda nota llegó a las 6:15 de la mañana, deslizada por debajo de la puerta de su propio despacho en la comisaría.\n\nEsto lo cambiaba todo. Quienquiera que fuera, tenía acceso al edificio. Era alguien de dentro, o alguien con contactos dentro. Y sabía exactamente dónde estaba ella en cada momento.\n\nVega cerró la puerta y por primera vez en doce años tuvo ganas de salir corriendo.",
+        "order": 5
+      },
+      {
+        "title": "Lara",
+        "content": "Fue el último nombre de la lista: Lara Fuentes, testigo en un caso de cuatro años atrás al que nadie había prestado suficiente atención. Incluyendo Vega.\n\nTardó dos horas en rastrearla. Vivía a veinte minutos de la comisaría, en un piso de renta antigua, con una pared entera cubierta de recortes de prensa. En el centro de esa pared: una foto de Vega.",
+        "order": 6
+      },
+      {
+        "title": "Las coordenadas",
+        "content": "\"¿Por qué mi casa?\", preguntó Vega.\n\nLara la miró desde el otro lado de la mesa de interrogatorios con una calma que resultaba más inquietante que la furia.\n\n\"Porque quería que supieras lo que se siente. Que alguien sabe dónde vives. Que alguien podría entrar cuando quisiera. Que llevas cuatro años sin saber que existe alguien así en tu vida.\"\n\nHizo una pausa.\n\n\"Como yo. Cuatro años sin que nadie me creyera.\"",
+        "order": 7
+      },
+      {
+        "title": "Las cuarenta y ocho horas",
+        "content": "No hubo víctima. Nunca la iba a haber: las coordenadas eran un señuelo, una forma de que Vega entendiera algo que de otro modo no habría entendido.\n\nLara Fuentes fue procesada. Vega reabrió el caso de cuatro años atrás.\n\nEsa noche, en su casa, Vega se quedó mirando la puerta durante un rato antes de echar el cerrojo. Luego encendió el ordenador y buscó el nombre de la víctima original.\n\nEmpezó a leer desde el principio.",
+        "order": 8
+      }
+    ]
+  },
+  {
+    "title": "Anatomía de la Lluvia",
+    "description": "Una colección de poemas sobre las cosas pequeñas que nos sostienen: el olor de la tierra antes de la lluvia, la luz de las cuatro de la tarde, y todo lo que no tiene nombre pero que todos reconocemos.",
+    "cover_image": "",
+    "cover_url": "https://i.pinimg.com/736x/24/41/82/244182673f486ba9246b192fb516cfee.jpg",
+    "author": "morita",
+    "genres": [
+      "Poesía"
+    ],
+    "status": "published",
+    "is_featured": false,
+    "chapters": [
+      {
+        "title": "I. Lo que viene antes",
+        "content": "Hay un olor antes de la lluvia\nque no tiene nombre en ningún idioma\npero que todos reconocemos\ncomo reconocemos la voz de nuestra madre\nen un cuarto oscuro.\n\nEs la promesa de algo.\nLa tierra diciéndote: espera,\naquí viene algo que lo limpia todo.\n\n—\n\nA las cuatro de la tarde\nel sol hace lo que quiere con las ventanas.\nEntra oblicuo, casi disculpándose,\ny convierte el polvo en oro\ndurante exactamente doce minutos.\n\nSi no estás mirando, te lo pierdes.\nSi estás mirando, ya no puedes parar.",
+        "order": 1
+      },
+      {
+        "title": "II. Inventario de lo que no tiene nombre",
+        "content": "Cosas que no tienen nombre pero que existen:\n\nEl silencio específico de una habitación\ndespués de que alguien se va.\n\nEl peso de una mano en el hombro\ncuando no hace falta decir nada.\n\nEse segundo antes de reírse\ncuando sabes que vas a reírte\ny todavía no lo has hecho.\n\nEl olor de los libros viejos\nque es realmente el olor del tiempo.\n\nEl modo en que suena tu nombre\ncuando lo dice alguien que te quiere.\n\n—\n\nEstoy convencida de que la felicidad\nno es un estado sino una colección de instantes\nque solo reconocemos mirando hacia atrás.\n\nComo las estrellas:\nsiempre estuvieron ahí.\nSolo hay que saber cuándo mirar.",
+        "order": 2
+      },
+      {
+        "title": "III. La lluvia",
+        "content": "Cuando por fin llueve\nel olor que prometía se vuelve real.\n\nY uno entiende que a veces\nesperar no es perder el tiempo.\nEs simplemente aprender a quedarse quieto.\n\n—\n\nMe gusta pensar que las ciudades tienen memoria.\n\nQue este adoquín recuerda cien inviernos.\nQue este banco sabe cuántas veces\nalguien se sentó aquí pensando\nque todo iba a salir mal\ny luego se levantó.\n\n—\n\nAl final de todo lo que queda\nno son los grandes momentos\nsino los pequeños:\n\nEl café de las mañanas.\nLa ventana abierta en verano.\nLa lluvia. Siempre la lluvia.\nAnunciándose primero, llegando después,\nlavando lo que necesita ser lavado.",
+        "order": 3
+      }
+    ]
+  },
+  {
+    "title": "El Coleccionista de Latidos",
+    "description": "En un mundo donde el tiempo se ha convertido en una moneda literal que se compra y se vende, un viejo artesano se dedica a una profesión prohibida: reparar los trozos de vida que la gente vende por desesperación. Una fábula gótica y entrañable sobre el verdadero valor de nuestros días y el peligro de vivir en piloto automático.",
+    "cover_image": "",
+    "cover_url": "https://i.pinimg.com/736x/61/f2/28/61f228b2c09a046104aa2cb11608671f.jpg",
+    "author": "dag12",
+    "genres": [
+      "Ciencia Ficción"
+    ],
+    "status": "published",
+    "is_featured": false,
+    "chapters": [
+      {
+        "title": "1",
+        "content": "La ciudad de Engranaje era un lugar gris, cubierto por una niebla perpetua de hollín y el tictac incesante de la Gran Torre del Reloj. Allí, el tiempo no se medía en horas, sino en moneda corriente. Los ricos paseaban con relojes de oro incrustados en sus muñecas, rebosantes de décadas de juventud comprada. Los pobres, en cambio, caminaban encorvados, vendiendo meses o años de su vida en las Casas de Empeño Temporal a cambio de un plato de sopa o un techo para la noche.\n\nEn el callejón más oscuro de la ciudad, lejos de las luces de neón, se encontraba el taller de Alistair.\n\nAlistair era un hombre de manos agrietadas y ojos del color del agua estancada. Oficialmente, era un chatarrero. Extraoficialmente, era el único capaz de reparar el tiempo roto.\n\nUna noche de tormenta, la campana de su puerta tintineó. Entró una joven envuelta en una capa empapada. Su rostro estaba pálido, casi transparente, un síntoma inequívoco de que le quedaban pocas arenas en su reloj interno. En sus manos temblorosas sostenía un artefacto extraño: un cronómetro de bolsillo de cobre, pero el cristal estaba agrietado y de su interior goteaba un líquido espeso y dorado.\n\n—Por favor —susurró la joven, cuyo nombre era Clara—. Me dijeron que usted podría revivirlo.\n\nAlistair tomó el objeto con delicadeza y lo colocó bajo su lámpara. Al mirarlo de cerca, ahogó un gemido. No era un reloj cualquiera. Era un contenedor de esencia.\n\n—Esto es memoria pura, muchacha —dijo Alistair, con voz ronca—. Y está drenándose. Si este líquido se evapora, olvidarás por qué valía la pena vivir el tiempo que te queda. ¿Qué hiciste?\n\nClara bajó la mirada, avergonzada.\n\n—Vendí mi infancia —confesó—. Mi madre estaba enferma. El usurero de la Gran Torre me ofreció diez años de salud para ella a cambio de mis primeros diez años de vida. Pensé que no los extrañaría... después de todo, son solo recuerdos de juegos y raspaduras en las rodillas. Pero desde que se los llevaron, siento un frío insoportable en el pecho. No puedo reír, no puedo sentir calor. Es como si fuera un fantasma.\n\nAlistair suspiró. Sabía perfectamente lo que pasaba. Los usureros no solo robaban el tiempo; extraían la inocencia, el asombro y la capacidad de amar para vendérselos como elixires a los ancianos nobles que querían volver a sentirse vivos.\n\nLa anatomía de un recuerdo\nEl viejo artesano sabía que la ley de la ciudad castigaba la falsificación de tiempo con la muerte, pero ver los ojos vacíos de Clara le dolió más que cualquier amenaza.\n\nEl diagnóstico: El conector principal del cronómetro estaba roto. La memoria de Clara se estaba mezclando con el aire frío de Engranaje.\n\nLa solución: Necesitaba un catalizador, una chispa de emoción genuina para sellar la grieta.\n\nAlistair se levantó y fue hacia el fondo de su taller. Movió un pesado estante de libros y reveló una caja de seguridad de hierro. Al abrirla, la tienda se iluminó con una luz cálida, casi celestial. Dentro de la caja había docenas de pequeños frascos, cada uno con una luz de color diferente: azul para la melancolía de un primer amor, verde para la esperanza de un náufrago, rojo para la valentía de un soldado.\n\n—¿Qué es todo esto? —preguntó Clara, maravillada, sintiendo un leve destello de calor en sus manos.\n\n—Son donaciones —dijo Alistair con una sonrisa triste—. Gente que entendió que le sobraba amargura y le faltaba espacio para cosas nuevas. Yo limpio sus recuerdos y guardo la esencia.\n\nEl viejo seleccionó un frasco de un color amarillo brillante, similar al color de las hojas de los árboles en otoño.\n\n—Este es el recuerdo de una tarde de campo de un hombre que ya no está. No es tuyo, Clara, pero la alegría es un idioma universal. Si lo mezclamos con tu líquido dorado, podremos soldar la grieta de tu cronómetro.\n\nEl sacrificio de la máquina\nAlistair comenzó a trabajar. Con la precisión de un cirujano, vertió la esencia amarilla dentro del cronómetro agrietado. El líquido comenzó a burbujear. Con su soplete de plasma diminuto, comenzó a sellar el cristal.\n\nSin embargo, el cobre del reloj estaba demasiado viejo. La presión del tiempo atrapado empezó a hacer que el artefacto vibrara violentamente.\n\n—¡No va a aguantar! —gritó Alistair sobre el zumbido metálico—. ¡Necesita más presión! ¡Necesita un latido real para sincronizarse!\n\nSin pensarlo dos veces, Alistair tomó un cable de cobre, conectó un extremo al cronómetro y el otro se lo colocó directamente sobre su propio corazón.\n\nUn destello cegador inundó el taller. Clara cerró los ojos. Escuchó un crujido, luego un suspiro profundo, y finalmente, el silencio absoluto de la tormenta afuera.\n\nCuando abrió los ojos, el taller estaba a oscuras, salvo por la luz de una vela. Sobre la mesa, el cronómetro de cobre estaba intacto, brillando con una luz suave y constante. El líquido dorado ya no se escapaba.\n\nClara sintió un golpe repentino en el pecho. De pronto, recordó el olor a pan horneado de la cocina de su abuela, el dolor de su primera caída de la bicicleta y la textura de la arena en sus pies cuando vio el mar por primera vez. Rompió a llorar, pero no de tristeza, sino de pura y desbordante gratitud. Estaba viva. Su infancia había regresado.\n\nMiró a Alistair. El viejo relojero estaba sentado en su sillón, visiblemente más cansado, con nuevas arrugas surcando su frente y el cabello completamente blanco. Le había entregado un pedazo de su propia fuerza vital para salvarla.\n\n—¿Por qué lo hizo? —preguntó Clara, abrazando el reloj contra su pecho.\n\nAlistair sonrió, y por primera vez en años, sus ojos de agua estancada brillaron como el mar.\n\n—Porque un mundo donde el tiempo solo se usa para trabajar y sobrevivir es un mundo muerto, muchacha. Alguien tiene que recordarle a esta ciudad que los latidos del corazón no se venden en las tiendas. Ahora vete, vive tu infancia, y cuando seas vieja, vuelve y cuéntame una buena historia. Ese será tu pago.\n\nClara asintió, se ajustó la capa y salió a la noche. La niebla de Engranaje seguía allí, pero para ella, el aire ahora olía a aventura. Y en el taller oscuro, el viejo Alistair volvió a encender su lámpara, listo para esperar al próximo cliente que hubiera olvidado cómo respirar.",
+        "order": 1
+      }
+    ]
+  }
+]
